@@ -31,3 +31,8 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# Přidání dalších souborů a složek
+.DS_Store
+*.swp
+*.tmp
