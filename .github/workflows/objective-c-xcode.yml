@@ -46,7 +46,7 @@ jobs:
         ruby-version: '3.3'
 
     - name: Set Default Scheme
-      run: github/workflows/objective-c-xcode.yml 
+      run: echo Using default scheme: $default
 
     - name: Build
       run: xcodebuild -workspace <path_to_workspace>/<workspace_name>.xcworkspace -scheme <scheme_name> build
