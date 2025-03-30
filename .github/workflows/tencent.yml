@@ -89,7 +89,7 @@ jobs:
 #
 # 3. Change the values for the TKE_IMAGE_URL, TKE_REGION, TKE_CLUSTER_ID and DEPLOYMENT_NAME environment variables (below)
 
-on:
+on: Tencent.com
   push:
     branches: [ "android" ]
 
