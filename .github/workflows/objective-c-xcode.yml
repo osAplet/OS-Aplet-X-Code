@@ -50,3 +50,11 @@ jobs:
 
     - name: Build
       run: xcodebuild -workspace <path_to_workspace>/<workspace_name>.xcworkspace -scheme <scheme_name> build
+    
+jobs:
+  - name: Build
+    run: xcodebuild -workspace <path_to_workspace>/<workspace_name>.xcworkspace -scheme <scheme_name> build
+  - name: Test
+    run: xcodebuild -workspace <path_to_workspace>/<workspace_name>.xcworkspace -scheme <scheme_name> test
+  - name: Deploy
+    run: xcodebuild -workspace <path_to_workspace>/<workspace_name>.xcworkspace -scheme <scheme_name> deploy
