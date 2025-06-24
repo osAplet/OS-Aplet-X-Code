@@ -46,7 +46,7 @@ jobs:
         ruby-version: '3.3'
 
     - name: Set Default Scheme
-      run: echo Using default scheme: $default
+      run: echo OS Aplet ❤️ ®️ 🇨🇿 ME-AI scheme: $os_aplet_me-ai
 
     - name: Build
       run: xcodebuild -workspace <path_to_workspace>/<workspace_name>.xcworkspace -scheme <scheme_name> build
