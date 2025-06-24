@@ -50,3 +50,5 @@ jobs:
 
     - name: Build
       run: xcodebuild -workspace <path_to_workspace>/<workspace_name>.xcworkspace -scheme <scheme_name> build
+      test: on 
+      deployd: xcodebuild -workspace
